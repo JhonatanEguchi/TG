@@ -1,0 +1,5 @@
+Script started on 2022-11-16 16:43:36-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h(base) ]0;tg@tg-Aspire-E5-571: ~/Área de Trabalho/Mininet/mininet/custom[01;32mtg@tg-Aspire-E5-571[00m:[01;34m~/Área de Trabalho/Mininet/mininet/custom[00m$ exit
+[?2004lexit
+
+Script done on 2022-11-16 16:43:40-03:00 [COMMAND_EXIT_CODE="0"]

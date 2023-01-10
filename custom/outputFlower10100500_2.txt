@@ -1,0 +1,463 @@
+Script started on 2023-01-06 10:01:45-03:00 [TERM="ansi" TTY="/dev/pts/21" COLUMNS="80" LINES="24"]
+[?2004h(base) root@tg-Aspire-E5-571:~/Área de Trabalho/TrabalhoFinal/Mininet/mininet/c
+ustom# exit[D[D[D[D./scripts/scriptServer.sh 
+[?2004lINFO flower 2023-01-06 10:01:48,617 | app.py:134 | Flower server running (10 rounds), SSL is disabled
+INFO flower 2023-01-06 10:01:48,617 | server.py:84 | Initializing global parameters
+INFO flower 2023-01-06 10:01:48,617 | server.py:256 | Requesting initial parameters from one random client
+INFO flower 2023-01-06 10:02:06,628 | server.py:259 | Received initial parameters from one random client
+INFO flower 2023-01-06 10:02:06,628 | server.py:86 | Evaluating initial parameters
+INFO flower 2023-01-06 10:02:06,628 | server.py:99 | FL starting
+DEBUG flower 2023-01-06 10:02:06,628 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:03:04,316 | server.py:216 | fit_round received 5 results and 0 failures
+WARNING flower 2023-01-06 10:03:04,347 | fedavg.py:237 | No fit_metrics_aggregation_fn provided
+DEBUG flower 2023-01-06 10:03:04,347 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:03:56,555 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:03:56,555 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:05:10,444 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:05:10,477 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:05:43,544 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:05:43,545 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:07:14,224 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:07:14,257 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:07:41,397 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:07:41,397 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:09:00,955 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:09:00,980 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:09:31,856 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:09:31,856 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:10:57,008 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:10:57,041 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:11:27,449 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:11:27,449 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:13:31,045 | server.py:216 | fit_round received 4 results and 1 failures
+DEBUG flower 2023-01-06 10:13:31,072 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:13:59,599 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:13:59,600 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:15:24,138 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:15:24,170 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:15:53,127 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:15:53,127 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:17:23,070 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:17:23,111 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:18:17,296 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:18:17,296 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:19:44,857 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:19:44,888 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:20:13,297 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:20:13,297 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:21:41,361 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:21:41,393 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:22:11,245 | server.py:170 | evaluate_round received 2 results and 0 failures
+INFO flower 2023-01-06 10:22:11,246 | server.py:138 | FL finished in 1204.617290166001
+INFO flower 2023-01-06 10:22:11,246 | app.py:178 | app_fit: losses_distributed [(1, 0.07366453483700752), (2, 0.07348330318927765), (3, 0.07287819311022758), (4, 0.06888817623257637), (5, 0.06487175822257996), (6, 0.061825187876820564), (7, 0.059342408552765846), (8, 0.05765591003000736), (9, 0.055883245542645454), (10, 0.054659606888890266)]
+INFO flower 2023-01-06 10:22:11,246 | app.py:179 | app_fit: metrics_distributed {'accuracy': [(1, 0.105), (2, 0.1555), (3, 0.1895), (4, 0.1935), (5, 0.237), (6, 0.2855), (7, 0.333), (8, 0.343), (9, 0.365), (10, 0.37)]}
+INFO flower 2023-01-06 10:22:11,247 | app.py:180 | app_fit: losses_centralized []
+INFO flower 2023-01-06 10:22:11,247 | app.py:181 | app_fit: metrics_centralized {}
+INFO flower 2023-01-06 10:22:16,352 | app.py:134 | Flower server running (10 rounds), SSL is disabled
+INFO flower 2023-01-06 10:22:16,353 | server.py:84 | Initializing global parameters
+INFO flower 2023-01-06 10:22:16,353 | server.py:256 | Requesting initial parameters from one random client
+INFO flower 2023-01-06 10:22:30,335 | server.py:259 | Received initial parameters from one random client
+INFO flower 2023-01-06 10:22:30,335 | server.py:86 | Evaluating initial parameters
+INFO flower 2023-01-06 10:22:30,335 | server.py:99 | FL starting
+DEBUG flower 2023-01-06 10:22:30,335 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:23:38,585 | server.py:216 | fit_round received 5 results and 0 failures
+WARNING flower 2023-01-06 10:23:38,625 | fedavg.py:237 | No fit_metrics_aggregation_fn provided
+DEBUG flower 2023-01-06 10:23:38,626 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:24:08,487 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:24:08,487 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:25:39,641 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:25:39,672 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:26:06,970 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:26:06,970 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:27:17,581 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:27:17,612 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:27:46,378 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:27:46,378 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:28:47,172 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:28:47,197 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:29:32,737 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:29:32,737 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:31:08,504 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:31:08,530 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:31:51,028 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:31:51,029 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:32:53,785 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:32:53,817 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:33:21,343 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:33:21,343 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:35:00,562 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:35:00,587 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:35:17,441 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:35:17,441 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:36:49,145 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:36:49,170 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:37:35,005 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:37:35,005 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:39:04,537 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:39:04,570 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:39:37,068 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:39:37,068 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:41:06,881 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:41:06,907 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:41:34,602 | server.py:170 | evaluate_round received 2 results and 0 failures
+INFO flower 2023-01-06 10:41:34,603 | server.py:138 | FL finished in 1144.2675842469998
+INFO flower 2023-01-06 10:41:34,603 | app.py:178 | app_fit: losses_distributed [(1, 0.07366808131337166), (2, 0.0734015703201294), (3, 0.07257281243801117), (4, 0.06897228211164474), (5, 0.06455814093351364), (6, 0.06109774857759476), (7, 0.059390515089035034), (8, 0.05691564828157425), (9, 0.054755985736846924), (10, 0.0525953508913517)]
+INFO flower 2023-01-06 10:41:34,603 | app.py:179 | app_fit: metrics_distributed {'accuracy': [(1, 0.104), (2, 0.1145), (3, 0.1675), (4, 0.19), (5, 0.2485), (6, 0.3125), (7, 0.3135), (8, 0.3375), (9, 0.3775), (10, 0.389)]}
+INFO flower 2023-01-06 10:41:34,603 | app.py:180 | app_fit: losses_centralized []
+INFO flower 2023-01-06 10:41:34,604 | app.py:181 | app_fit: metrics_centralized {}
+INFO flower 2023-01-06 10:41:39,458 | app.py:134 | Flower server running (10 rounds), SSL is disabled
+INFO flower 2023-01-06 10:41:39,458 | server.py:84 | Initializing global parameters
+INFO flower 2023-01-06 10:41:39,459 | server.py:256 | Requesting initial parameters from one random client
+INFO flower 2023-01-06 10:42:05,390 | server.py:259 | Received initial parameters from one random client
+INFO flower 2023-01-06 10:42:05,390 | server.py:86 | Evaluating initial parameters
+INFO flower 2023-01-06 10:42:05,390 | server.py:99 | FL starting
+DEBUG flower 2023-01-06 10:42:05,390 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:43:18,167 | server.py:216 | fit_round received 5 results and 0 failures
+WARNING flower 2023-01-06 10:43:18,207 | fedavg.py:237 | No fit_metrics_aggregation_fn provided
+DEBUG flower 2023-01-06 10:43:18,207 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:43:59,749 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:43:59,750 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:45:12,129 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:45:12,160 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:45:39,017 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:45:39,018 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:46:41,953 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:46:41,984 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:47:08,358 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:47:08,358 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:48:22,796 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:48:22,821 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:48:42,747 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:48:42,747 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:49:51,520 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:49:51,544 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:50:23,751 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:50:23,751 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:51:41,564 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:51:41,597 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:52:26,284 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:52:26,284 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:53:21,056 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:53:21,081 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:53:59,662 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:53:59,662 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:55:10,192 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:55:10,216 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:55:52,331 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:55:52,332 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:57:05,732 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:57:05,756 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:57:34,969 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 10:57:34,970 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 10:58:34,449 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 10:58:34,481 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 10:59:06,250 | server.py:170 | evaluate_round received 2 results and 0 failures
+INFO flower 2023-01-06 10:59:06,250 | server.py:138 | FL finished in 1020.8601922769994
+INFO flower 2023-01-06 10:59:06,251 | app.py:178 | app_fit: losses_distributed [(1, 0.07365122810006142), (2, 0.07337674498558044), (3, 0.07259650528430939), (4, 0.06692320108413696), (5, 0.061901604756712914), (6, 0.05916759371757507), (7, 0.057342153042554855), (8, 0.055430442094802856), (9, 0.05399041622877121), (10, 0.05234057828783989)]
+INFO flower 2023-01-06 10:59:06,251 | app.py:179 | app_fit: metrics_distributed {'accuracy': [(1, 0.1415), (2, 0.2205), (3, 0.229), (4, 0.255), (5, 0.303), (6, 0.3225), (7, 0.3555), (8, 0.378), (9, 0.3835), (10, 0.403)]}
+INFO flower 2023-01-06 10:59:06,251 | app.py:180 | app_fit: losses_centralized []
+INFO flower 2023-01-06 10:59:06,252 | app.py:181 | app_fit: metrics_centralized {}
+INFO flower 2023-01-06 10:59:08,867 | app.py:134 | Flower server running (10 rounds), SSL is disabled
+INFO flower 2023-01-06 10:59:08,867 | server.py:84 | Initializing global parameters
+INFO flower 2023-01-06 10:59:08,867 | server.py:256 | Requesting initial parameters from one random client
+INFO flower 2023-01-06 10:59:42,218 | server.py:259 | Received initial parameters from one random client
+INFO flower 2023-01-06 10:59:42,219 | server.py:86 | Evaluating initial parameters
+INFO flower 2023-01-06 10:59:42,219 | server.py:99 | FL starting
+DEBUG flower 2023-01-06 10:59:42,219 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:00:32,974 | server.py:216 | fit_round received 5 results and 0 failures
+WARNING flower 2023-01-06 11:00:33,004 | fedavg.py:237 | No fit_metrics_aggregation_fn provided
+DEBUG flower 2023-01-06 11:00:33,005 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:00:57,668 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:00:57,668 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:02:15,289 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:02:15,313 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:02:50,920 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:02:50,921 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:04:03,217 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:04:03,241 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:04:27,645 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:04:27,645 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:05:34,065 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:05:34,098 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:05:57,344 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:05:57,344 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:06:59,665 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:06:59,690 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:07:16,120 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:07:16,121 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:08:09,017 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:08:09,048 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:08:41,750 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:08:41,750 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:10:01,446 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:10:01,477 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:10:19,935 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:10:19,935 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:11:29,967 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:11:29,999 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:12:03,705 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:12:03,705 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:14:13,919 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:14:13,951 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:14:39,984 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:14:39,984 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:15:55,532 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:15:55,558 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:16:28,360 | server.py:170 | evaluate_round received 2 results and 0 failures
+INFO flower 2023-01-06 11:16:28,360 | server.py:138 | FL finished in 1006.1411607009995
+INFO flower 2023-01-06 11:16:28,360 | app.py:178 | app_fit: losses_distributed [(1, 0.07357601448893547), (2, 0.07353584840893745), (3, 0.0733528882265091), (4, 0.07251239195466042), (5, 0.06957560777664185), (6, 0.06417934596538544), (7, 0.06140266731381416), (8, 0.05840688943862915), (9, 0.05655713379383087), (10, 0.05469891056418419)]
+INFO flower 2023-01-06 11:16:28,360 | app.py:179 | app_fit: metrics_distributed {'accuracy': [(1, 0.113), (2, 0.12), (3, 0.1685), (4, 0.155), (5, 0.2265), (6, 0.262), (7, 0.292), (8, 0.335), (9, 0.346), (10, 0.368)]}
+INFO flower 2023-01-06 11:16:28,360 | app.py:180 | app_fit: losses_centralized []
+INFO flower 2023-01-06 11:16:28,360 | app.py:181 | app_fit: metrics_centralized {}
+INFO flower 2023-01-06 11:16:30,979 | app.py:134 | Flower server running (10 rounds), SSL is disabled
+INFO flower 2023-01-06 11:16:30,979 | server.py:84 | Initializing global parameters
+INFO flower 2023-01-06 11:16:30,979 | server.py:256 | Requesting initial parameters from one random client
+INFO flower 2023-01-06 11:16:53,969 | server.py:259 | Received initial parameters from one random client
+INFO flower 2023-01-06 11:16:53,969 | server.py:86 | Evaluating initial parameters
+INFO flower 2023-01-06 11:16:53,969 | server.py:99 | FL starting
+DEBUG flower 2023-01-06 11:16:53,969 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:18:13,731 | server.py:216 | fit_round received 4 results and 1 failures
+WARNING flower 2023-01-06 11:18:13,766 | fedavg.py:237 | No fit_metrics_aggregation_fn provided
+DEBUG flower 2023-01-06 11:18:28,045 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:18:43,452 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:18:43,452 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:19:53,589 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:19:53,616 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:20:19,287 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:20:19,287 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:21:28,220 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:21:28,253 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:22:15,273 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:22:15,274 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:23:08,775 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:23:08,806 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:23:26,513 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:23:26,514 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:24:54,041 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:24:54,066 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:25:21,616 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:25:21,616 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:26:49,374 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:26:49,406 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:27:23,590 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:27:23,590 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:28:37,305 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:28:37,338 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:29:10,660 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:29:10,660 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:30:27,376 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:30:27,406 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:31:03,456 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:31:03,456 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:32:18,482 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:32:18,513 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:32:36,848 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:32:36,848 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:33:48,729 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:33:48,760 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:34:20,810 | server.py:170 | evaluate_round received 2 results and 0 failures
+INFO flower 2023-01-06 11:34:20,811 | server.py:138 | FL finished in 1046.8418901529985
+INFO flower 2023-01-06 11:34:20,811 | app.py:178 | app_fit: losses_distributed [(1, 0.07367010042071342), (2, 0.07355692982673645), (3, 0.07312150672078133), (4, 0.07050060480833054), (5, 0.06661602854728699), (6, 0.06259999424219131), (7, 0.06125376187264919), (8, 0.05926966667175293), (9, 0.057671092450618744), (10, 0.055889951065182686)]
+INFO flower 2023-01-06 11:34:20,812 | app.py:179 | app_fit: metrics_distributed {'accuracy': [(1, 0.11), (2, 0.0875), (3, 0.1665), (4, 0.2015), (5, 0.2385), (6, 0.2945), (7, 0.298), (8, 0.3395), (9, 0.345), (10, 0.3495)]}
+INFO flower 2023-01-06 11:34:20,812 | app.py:180 | app_fit: losses_centralized []
+INFO flower 2023-01-06 11:34:20,812 | app.py:181 | app_fit: metrics_centralized {}
+INFO flower 2023-01-06 11:34:23,157 | app.py:134 | Flower server running (10 rounds), SSL is disabled
+INFO flower 2023-01-06 11:34:23,158 | server.py:84 | Initializing global parameters
+INFO flower 2023-01-06 11:34:23,158 | server.py:256 | Requesting initial parameters from one random client
+INFO flower 2023-01-06 11:34:42,924 | server.py:259 | Received initial parameters from one random client
+INFO flower 2023-01-06 11:34:42,924 | server.py:86 | Evaluating initial parameters
+INFO flower 2023-01-06 11:34:42,924 | server.py:99 | FL starting
+DEBUG flower 2023-01-06 11:34:42,925 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:35:47,890 | server.py:216 | fit_round received 5 results and 0 failures
+WARNING flower 2023-01-06 11:35:47,922 | fedavg.py:237 | No fit_metrics_aggregation_fn provided
+DEBUG flower 2023-01-06 11:35:47,922 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:36:06,328 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:36:06,329 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:37:09,019 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:37:09,051 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:37:36,436 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:37:36,436 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:38:41,096 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:38:41,121 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:39:08,261 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:39:08,261 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:40:00,337 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:40:00,371 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:40:17,827 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:40:17,827 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:41:27,409 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:41:27,440 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:41:50,928 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:41:50,928 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:43:20,626 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:43:20,659 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:43:47,708 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:43:47,709 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:45:07,344 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:45:07,377 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:45:38,724 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:45:38,725 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:46:49,184 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:46:49,215 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:47:16,519 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:47:16,519 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:48:35,417 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:48:35,448 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:48:53,357 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:48:53,357 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:50:00,793 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:50:00,821 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:50:18,530 | server.py:170 | evaluate_round received 2 results and 0 failures
+INFO flower 2023-01-06 11:50:18,530 | server.py:138 | FL finished in 935.605682894
+INFO flower 2023-01-06 11:50:18,531 | app.py:178 | app_fit: losses_distributed [(1, 0.07368193194270134), (2, 0.07345395535230637), (3, 0.07292500883340836), (4, 0.07048949599266052), (5, 0.06632276624441147), (6, 0.06274460069835186), (7, 0.06105666048824787), (8, 0.05945821292698383), (9, 0.05739842541515827), (10, 0.05530675686895847)]
+INFO flower 2023-01-06 11:50:18,531 | app.py:179 | app_fit: metrics_distributed {'accuracy': [(1, 0.1075), (2, 0.1235), (3, 0.162), (4, 0.201), (5, 0.23), (6, 0.2935), (7, 0.306), (8, 0.3275), (9, 0.347), (10, 0.37)]}
+INFO flower 2023-01-06 11:50:18,531 | app.py:180 | app_fit: losses_centralized []
+INFO flower 2023-01-06 11:50:18,531 | app.py:181 | app_fit: metrics_centralized {}
+INFO flower 2023-01-06 11:50:19,914 | app.py:134 | Flower server running (10 rounds), SSL is disabled
+INFO flower 2023-01-06 11:50:19,914 | server.py:84 | Initializing global parameters
+INFO flower 2023-01-06 11:50:19,914 | server.py:256 | Requesting initial parameters from one random client
+INFO flower 2023-01-06 11:50:49,548 | server.py:259 | Received initial parameters from one random client
+INFO flower 2023-01-06 11:50:49,548 | server.py:86 | Evaluating initial parameters
+INFO flower 2023-01-06 11:50:49,548 | server.py:99 | FL starting
+DEBUG flower 2023-01-06 11:50:49,548 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:51:38,302 | server.py:216 | fit_round received 5 results and 0 failures
+WARNING flower 2023-01-06 11:51:38,343 | fedavg.py:237 | No fit_metrics_aggregation_fn provided
+DEBUG flower 2023-01-06 11:51:38,343 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:52:08,157 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:52:08,158 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:53:30,320 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:53:30,353 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:53:57,079 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:53:57,080 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:55:06,279 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:55:06,311 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:55:45,237 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:55:45,237 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:57:05,615 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:57:05,641 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:57:33,091 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:57:33,091 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 11:58:55,129 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 11:58:55,152 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 11:59:17,718 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 11:59:17,718 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 12:00:38,682 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 12:00:38,724 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 12:01:15,813 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 12:01:15,813 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 12:02:22,190 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 12:02:22,214 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 12:03:10,726 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 12:03:10,726 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 12:04:16,817 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 12:04:16,862 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 12:04:52,144 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 12:04:52,144 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 12:06:13,861 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 12:06:13,892 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 12:06:49,654 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 12:06:49,655 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 12:07:44,961 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 12:07:44,985 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 12:08:11,237 | server.py:170 | evaluate_round received 2 results and 0 failures
+INFO flower 2023-01-06 12:08:11,237 | server.py:138 | FL finished in 1041.688688573
+INFO flower 2023-01-06 12:08:11,237 | app.py:178 | app_fit: losses_distributed [(1, 0.07359657809138298), (2, 0.07339250296354294), (3, 0.07211640477180481), (4, 0.0676284022629261), (5, 0.06539482995867729), (6, 0.061218325048685074), (7, 0.05990380048751831), (8, 0.05879990756511688), (9, 0.05702821910381317), (10, 0.05424417555332184)]
+INFO flower 2023-01-06 12:08:11,238 | app.py:179 | app_fit: metrics_distributed {'accuracy': [(1, 0.1), (2, 0.1225), (3, 0.174), (4, 0.2395), (5, 0.2725), (6, 0.3115), (7, 0.332), (8, 0.335), (9, 0.341), (10, 0.3955)]}
+INFO flower 2023-01-06 12:08:11,238 | app.py:180 | app_fit: losses_centralized []
+INFO flower 2023-01-06 12:08:11,238 | app.py:181 | app_fit: metrics_centralized {}
+INFO flower 2023-01-06 12:08:12,590 | app.py:134 | Flower server running (10 rounds), SSL is disabled
+INFO flower 2023-01-06 12:08:12,590 | server.py:84 | Initializing global parameters
+INFO flower 2023-01-06 12:08:12,590 | server.py:256 | Requesting initial parameters from one random client
+INFO flower 2023-01-06 12:08:44,109 | server.py:259 | Received initial parameters from one random client
+INFO flower 2023-01-06 12:08:44,110 | server.py:86 | Evaluating initial parameters
+INFO flower 2023-01-06 12:08:44,110 | server.py:99 | FL starting
+DEBUG flower 2023-01-06 12:08:44,110 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 12:09:34,626 | server.py:216 | fit_round received 5 results and 0 failures
+WARNING flower 2023-01-06 12:09:34,667 | fedavg.py:237 | No fit_metrics_aggregation_fn provided
+DEBUG flower 2023-01-06 12:09:34,668 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 12:10:02,367 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 12:10:02,368 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 12:11:00,907 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 12:11:00,940 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 12:11:21,339 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 12:11:21,339 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 12:12:57,665 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 12:12:57,715 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 12:13:36,762 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 12:13:36,763 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 12:14:47,679 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 12:14:47,705 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 12:15:22,946 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 12:15:22,946 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 12:16:36,817 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 12:16:36,867 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 12:16:57,847 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 12:16:57,848 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 12:18:40,561 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 12:18:40,585 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 12:19:10,594 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 12:19:10,595 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 12:20:41,323 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 12:20:41,349 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 12:21:00,808 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 12:21:00,808 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 12:22:14,293 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 12:22:14,324 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 12:22:41,325 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 12:22:41,325 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 12:24:00,626 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 12:24:00,658 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 12:24:36,218 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-06 12:24:36,218 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-06 12:26:29,225 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-06 12:26:29,258 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-06 12:26:51,480 | server.py:170 | evaluate_round received 2 results and 0 failures
+INFO flower 2023-01-06 12:26:51,480 | server.py:138 | FL finished in 1087.3701678550005
+INFO flower 2023-01-06 12:26:51,480 | app.py:178 | app_fit: losses_distributed [(1, 0.07369683310389519), (2, 0.07355405762791634), (3, 0.07335663586854935), (4, 0.07200805470347404), (5, 0.06950901821255684), (6, 0.06658806279301643), (7, 0.06352272629737854), (8, 0.06051146797835827), (9, 0.058778148144483566), (10, 0.05559915117919445)]
+INFO flower 2023-01-06 12:26:51,481 | app.py:179 | app_fit: metrics_distributed {'accuracy': [(1, 0.1125), (2, 0.1395), (3, 0.1515), (4, 0.162), (5, 0.235), (6, 0.239), (7, 0.2695), (8, 0.3065), (9, 0.3235), (10, 0.3615)]}
+INFO flower 2023-01-06 12:26:51,481 | app.py:180 | app_fit: losses_centralized []
+INFO flower 2023-01-06 12:26:51,481 | app.py:181 | app_fit: metrics_centralized {}
+INFO flower 2023-01-06 12:26:52,830 | app.py:134 | Flower server running (10 rounds), SSL is disabled
+INFO flower 2023-01-06 12:26:52,830 | server.py:84 | Initializing global parameters
+INFO flower 2023-01-06 12:26:52,830 | server.py:256 | Requesting initial parameters from one random client
+INFO flower 2023-01-06 12:27:29,197 | server.py:259 | Received initial parameters from one random client
+INFO flower 2023-01-06 12:27:29,198 | server.py:86 | Evaluating initial parameters
+INFO flower 2023-01-06 12:27:29,198 | server.py:99 | FL starting
+^CTraceback (most recent call last):
+  File "/home/tg/Área de Trabalho/TrabalhoFinal/FlowerTest/quickstart_pytorch/server.py", line 33, in <module>
+    fl.server.start_server(
+  File "/home/tg/anaconda3/lib/python3.9/site-packages/flwr/server/app.py", line 136, in start_server
+    hist = _fl(
+  File "/home/tg/anaconda3/lib/python3.9/site-packages/flwr/server/app.py", line 177, in _fl
+    hist = server.fit(num_rounds=config.num_rounds, timeout=config.round_timeout)
+  File "/home/tg/anaconda3/lib/python3.9/site-packages/flwr/server/server.py", line 104, in fit
+    res_fit = self.fit_round(rnd=current_round, timeout=timeout)
+  File "/home/tg/anaconda3/lib/python3.9/site-packages/flwr/server/server.py", line 196, in fit_round
+    client_instructions = self.strategy.configure_fit(
+  File "/home/tg/anaconda3/lib/python3.9/site-packages/flwr/server/strategy/fedavg.py", line 175, in configure_fit
+    clients = client_manager.sample(
+  File "/home/tg/anaconda3/lib/python3.9/site-packages/flwr/server/client_manager.py", line 133, in sample
+    self.wait_for(min_num_clients)
+  File "/home/tg/anaconda3/lib/python3.9/site-packages/flwr/server/client_manager.py", line 84, in wait_for
+    return self._cv.wait_for(
+  File "/home/tg/anaconda3/lib/python3.9/threading.py", line 347, in wait_for
+    self.wait(waittime)
+  File "/home/tg/anaconda3/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+^CException ignored in: <module 'threading' from '/home/tg/anaconda3/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/tg/anaconda3/lib/python3.9/threading.py", line 1440, in _shutdown
+    atexit_call()
+  File "/home/tg/anaconda3/lib/python3.9/concurrent/futures/thread.py", line 31, in _python_exit
+    t.join()
+  File "/home/tg/anaconda3/lib/python3.9/threading.py", line 1053, in join
+    self._wait_for_tstate_lock()
+  File "/home/tg/anaconda3/lib/python3.9/threading.py", line 1073, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt: 
+[?2004h(base) root@tg-Aspire-E5-571:~/Área de Trabalho/TrabalhoFinal/Mininet/mininet/c
+ustom# exit
+[?2004lexit
+
+Script done on 2023-01-06 12:39:52-03:00 [COMMAND_EXIT_CODE="130"]

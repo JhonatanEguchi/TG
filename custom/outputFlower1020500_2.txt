@@ -1,0 +1,72 @@
+Script started on 2023-01-05 22:56:19-03:00 [TERM="ansi" TTY="/dev/pts/21" COLUMNS="80" LINES="24"]
+[?2004h(base) root@tg-Aspire-E5-571:~/Área de Trabalho/TrabalhoFinal/Mininet/mininet/c
+ustom# exit[D[D[D[D./scripts/scriptServer.sh 
+[?2004lINFO flower 2023-01-05 22:56:23,127 | app.py:134 | Flower server running (10 rounds), SSL is disabled
+INFO flower 2023-01-05 22:56:23,127 | server.py:84 | Initializing global parameters
+INFO flower 2023-01-05 22:56:23,127 | server.py:256 | Requesting initial parameters from one random client
+INFO flower 2023-01-05 22:57:09,084 | server.py:259 | Received initial parameters from one random client
+INFO flower 2023-01-05 22:57:09,084 | server.py:86 | Evaluating initial parameters
+INFO flower 2023-01-05 22:57:09,084 | server.py:99 | FL starting
+DEBUG flower 2023-01-05 22:57:09,084 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-05 22:58:06,241 | server.py:216 | fit_round received 5 results and 0 failures
+WARNING flower 2023-01-05 22:58:06,282 | fedavg.py:237 | No fit_metrics_aggregation_fn provided
+DEBUG flower 2023-01-05 22:58:06,282 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-05 22:58:42,336 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-05 22:58:42,336 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-05 23:00:01,774 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-05 23:00:01,806 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-05 23:00:51,189 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-05 23:00:51,190 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-05 23:03:05,181 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-05 23:03:05,214 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-05 23:03:35,410 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-05 23:03:35,411 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-05 23:04:46,929 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-05 23:04:46,971 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-05 23:05:24,727 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-05 23:05:24,728 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-05 23:07:08,497 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-05 23:07:08,523 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-05 23:07:39,606 | server.py:170 | evaluate_round received 2 results and 0 failures
+DEBUG flower 2023-01-05 23:07:39,606 | server.py:203 | fit_round: strategy sampled 5 clients (out of 5)
+DEBUG flower 2023-01-05 23:08:59,292 | server.py:216 | fit_round received 5 results and 0 failures
+DEBUG flower 2023-01-05 23:08:59,317 | server.py:157 | evaluate_round: strategy sampled 2 clients (out of 5)
+DEBUG flower 2023-01-05 23:09:43,755 | server.py:170 | evaluate_round received 1 results and 1 failures
+^CTraceback (most recent call last):
+  File "/home/tg/Área de Trabalho/TrabalhoFinal/FlowerTest/quickstart_pytorch/server.py", line 33, in <module>
+    fl.server.start_server(
+  File "/home/tg/anaconda3/lib/python3.9/site-packages/flwr/server/app.py", line 136, in start_server
+    hist = _fl(
+  File "/home/tg/anaconda3/lib/python3.9/site-packages/flwr/server/app.py", line 177, in _fl
+    hist = server.fit(num_rounds=config.num_rounds, timeout=config.round_timeout)
+  File "/home/tg/anaconda3/lib/python3.9/site-packages/flwr/server/server.py", line 104, in fit
+    res_fit = self.fit_round(rnd=current_round, timeout=timeout)
+  File "/home/tg/anaconda3/lib/python3.9/site-packages/flwr/server/server.py", line 196, in fit_round
+    client_instructions = self.strategy.configure_fit(
+  File "/home/tg/anaconda3/lib/python3.9/site-packages/flwr/server/strategy/fedavg.py", line 175, in configure_fit
+    clients = client_manager.sample(
+  File "/home/tg/anaconda3/lib/python3.9/site-packages/flwr/server/client_manager.py", line 133, in sample
+    self.wait_for(min_num_clients)
+  File "/home/tg/anaconda3/lib/python3.9/site-packages/flwr/server/client_manager.py", line 84, in wait_for
+    return self._cv.wait_for(
+  File "/home/tg/anaconda3/lib/python3.9/threading.py", line 347, in wait_for
+    self.wait(waittime)
+  File "/home/tg/anaconda3/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+^CException ignored in: <module 'threading' from '/home/tg/anaconda3/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/tg/anaconda3/lib/python3.9/threading.py", line 1440, in _shutdown
+    atexit_call()
+  File "/home/tg/anaconda3/lib/python3.9/concurrent/futures/thread.py", line 31, in _python_exit
+    t.join()
+  File "/home/tg/anaconda3/lib/python3.9/threading.py", line 1053, in join
+    self._wait_for_tstate_lock()
+  File "/home/tg/anaconda3/lib/python3.9/threading.py", line 1073, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt: 
+[?2004h(base) root@tg-Aspire-E5-571:~/Área de Trabalho/TrabalhoFinal/Mininet/mininet/c
+ustom# exit
+[?2004lexit
+
+Script done on 2023-01-05 23:11:57-03:00 [COMMAND_EXIT_CODE="130"]
